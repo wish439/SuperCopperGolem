@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "supercoppergolem",
+  "version": "${version}",
+  "name": "SuperCopperGolem",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.wishtoday.ts.supercoppergolem.Supercoppergolem"
+    ]
+  },
+  "mixins": [
+    "supercoppergolem.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
